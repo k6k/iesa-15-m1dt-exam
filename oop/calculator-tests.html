@@ -18,9 +18,16 @@
 
    QUnit.test("Calculator Substraction succeed", function( assert ) {
     var calc = new Calculator();
-    calc.add(10);
-    assert.equal(calc.result,10, "Substraction of 0 and 10, 10 expected");
+    calc.minus(10);
+    assert.equal(calc.result,-10, "Substraction of 0 and 10, -10 expected");
   });
+
+   QUnit.test("Calculator Division succeed", function( assert ) {
+    var calc = new Calculator();
+    calc.divide(10);
+    assert.equal(calc.result,0, "Division of 0 and 10, 0 expected");
+  });
+
    
   </script>
 </head>

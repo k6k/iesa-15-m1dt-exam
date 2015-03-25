@@ -13,5 +13,8 @@ var Calculator = function(){
 		this.result = this.result / arguments;
 	}
 
+	this.multiply = function(arguments){
+		this.result = this.result * arguments;
+	}
 
 }

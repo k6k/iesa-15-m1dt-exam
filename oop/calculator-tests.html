@@ -10,12 +10,16 @@
  <!-- -->
   <script type="text/javascript">
  
-  QUnit.test("Calculator behavior", function( assert ) {
-	var calc = new Calculator();
-    assert.equal(calc.add(10,5), 15, "Addition of 10 and 5, 15 expected");
-    assert.equal(calc.minus(10,5), 5, "Subsraction of 10 and 5, 5 expected");
-    assert.equal(calc.divide(10,5), 2, "Division of 10 and 5, 2 expected");
-    assert.equal(calc.multiply(10,5),50, "Multiplication of 10 and 5, 50 expected");
+  QUnit.test("Calculator Addition succeed", function( assert ) {
+	  var calc = new Calculator();
+    calc.add(10);
+    assert.equal(calc.result,10, "Addition of 0 and 10, 10 expected");
+  });
+
+   QUnit.test("Calculator Substraction succeed", function( assert ) {
+    var calc = new Calculator();
+    calc.add(10);
+    assert.equal(calc.result,10, "Substraction of 0 and 10, 10 expected");
   });
   </script>
 </head>

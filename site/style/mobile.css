@@ -1,0 +1,141 @@
+	body{
+		font-family: 'OpenSans';
+    	/* background-image: url(background.jpg); */
+		background-position: center center, 100% 80% top left;
+		background-origin: border-box;
+		background-repeat: repeat-x;
+		margin: 0;
+
+	}
+	/* Définition d'une police */
+	@font-face{
+		font-family: 'OpenSans';
+		/* src:url('OpenSans-r.ttf') format('trueType'); */
+		src:url('../OpenSans-r.ttf');
+	}
+
+
+
+	/* Header */
+	#header{
+		box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.7); 
+		color:#fff;
+		background: url('../planete.jpg');
+		height: 400px;
+	}
+	div.logo{
+		float: left;
+		width: 100px;
+	}
+
+	div.logo a{
+		text-decoration: none;
+		color: #FFF;
+	}
+
+	.header-sub-content{
+		background: #111111;
+		height: 60px;
+		opacity: 0.5;
+	}
+
+	/* Navigation */
+	nav#navigation{
+		float: right;
+	}
+
+	nav ul li{
+		vertical-align: top;
+		list-style-type: none;
+		display: inline-block;
+	}
+
+
+	nav ul li a{
+		display: block;
+		padding: 5px 10px;
+		text-decoration: none;
+		color: #fff;
+	}
+
+	.clear{
+		clear: both;
+	}
+	/*Selecteur d'élément */
+	p{
+		text-align: left;
+		font-size: .9em;		
+	}
+
+	.welcome{
+		margin: 0 auto;
+		width: 300px;
+	}
+
+	ul.listAll li{
+		list-style-type: none;
+		vertical-align: top;
+	}
+
+	ul.listAll li img{
+		float:left;
+		width: 30%;
+		margin-right: 20px;
+	}
+
+	ul.list li{
+		list-style-type: none;
+		display: inline-block;
+		width:200px;
+		margin-left: 20px;
+	}
+
+	ul.list li img{
+		width: 100px;
+	}
+/* Générale */
+	h3{
+		border-bottom: 1px dotted #E1E1E1;
+	}
+	.button{
+	  text-decoration: none;
+	  color: #FFF;
+	  background-color: #26a69a;
+	  text-align: center;
+	  letter-spacing: 0.5px;
+	  -webkit-transition: 0.2s ease-out;
+	  -moz-transition: 0.2s ease-out;
+	  -o-transition: 0.2s ease-out;
+	  -ms-transition: 0.2s ease-out;
+	  transition: 0.2s ease-out;
+	  cursor: pointer;
+	  height: 36px;
+	  padding: 0 2rem;
+	  -webkit-border-radius: 2px;
+	  -moz-border-radius: 2px;
+	  border-radius: 2px;
+	  background-clip: padding-box;
+	  line-height: 36px;
+	  text-transform: uppercase;
+	  border: none;
+	  outline: 0;
+	  -webkit-tap-highlight-color: transparent;
+
+	}
+
+
+	footer{
+		background: #111111;
+		color: #FFF;
+		margin:0;
+		text-align: center;
+	}
+
+	input[type="text"] {
+	  padding: 10px;
+	  border: none;
+	  border-bottom: solid 2px #c9c9c9;
+	  transition: border 0.3s;
+	  width: 500px;
+	  margin-left: 70px;
+	}

@@ -9,6 +9,9 @@ var Calculator = function(){
 		this.result = this.result - arguments;
 	}
 
-	
+	this.divide = function(arguments){
+		this.result = this.result / arguments;
+	}
+
 
 }

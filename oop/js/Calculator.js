@@ -5,6 +5,10 @@ var Calculator = function(){
 		this.result += arguments;
 	}
 
+	this.minus = function(arguments){
+		this.result = this.result - arguments;
+	}
+
 	
 
 }
